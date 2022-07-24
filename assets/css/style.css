@@ -15,5 +15,56 @@ h1 {
 }
 
 h2 {
-    float: left;
+    margin-bottom: 0in;
+    padding-left: 5px;
+}
+
+
+.form-input {
+    background-color: rgba(255,255,255, 0.75);
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px 5px 5px;
+    font-size: 16px;
+    color: #024e76;
+    width: 20%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 0ch
+    }
+
+
+
+  
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }
